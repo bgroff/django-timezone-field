@@ -154,5 +154,6 @@ __ https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 __ https://github.com/mfogel/django-timezone-field/issues?q=milestone%3A1.3
 __ https://tox.readthedocs.org/
 __ https://github.com/bgroff/django-timezone-field-ng/
+__ https://github.com/mfogel/django-timezones/
 __ https://github.com/brosner/django-timezones/
 __ https://github.com/bgroff/django-timezone-field-ng/graphs/contributors
