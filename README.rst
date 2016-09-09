@@ -1,14 +1,14 @@
-django-timezone-field
-=====================
+django-timezone-field-ng
+========================
 
-.. image:: https://img.shields.io/travis/mfogel/django-timezone-field/develop.svg
-   :target: https://travis-ci.org/mfogel/django-timezone-field/
+.. image:: https://img.shields.io/travis/bgroff/django-timezone-field-ng/develop.svg
+   :target: https://travis-ci.org/bgroff/django-timezone-field-ng/
 
-.. image:: https://img.shields.io/coveralls/mfogel/django-timezone-field/develop.svg
-   :target: https://coveralls.io/r/mfogel/django-timezone-field/
+.. image:: https://img.shields.io/coveralls/bgroff/django-timezone-field-ng/develop.svg
+   :target: https://coveralls.io/r/bgroff/django-timezone-field-ng/
 
-.. image:: https://img.shields.io/pypi/dm/django-timezone-field.svg
-   :target: https://pypi.python.org/pypi/django-timezone-field/
+.. image:: https://img.shields.io/pypi/dm/django-timezone-field-ng.svg
+   :target: https://pypi.python.org/pypi/django-timezone-field-ng/
 
 A Django app providing database and form fields for `pytz`__ timezone objects.
 
@@ -68,7 +68,7 @@ Installation
 
     .. code:: sh
 
-        pip install django-timezone-field
+        pip install django-timezone-field-ng
 
 #.  Add `timezone_field` to your `settings.INSTALLED_APPS`__:
 
@@ -81,7 +81,11 @@ Installation
         )
 
 Changelog
-------------
+---------
+
+*   2.0 (2016-09-09)
+
+    *   Fork the repository from mfogel and tag 2.0 release
 
 *   2.0rc1 (2016-01-31)
 
@@ -134,20 +138,21 @@ Running the Tests
 Found a Bug?
 ------------
 
-To file a bug or submit a patch, please head over to `django-timezone-field on github`__.
+To file a bug or submit a patch, please head over to `django-timezone-field-ng on github`__.
 
 Credits
 -------
+This project is a fork of the work done by `Mike Fogel's django-timezones`__
 
-Originally adapted from `Brian Rosner's django-timezones`__. The full list of contributors is available on `github`__.
+And was originally adapted from `Brian Rosner's django-timezones`__. The full list of contributors is available on `github`__.
 
 
 __ http://pypi.python.org/pypi/pytz/
-__ http://pypi.python.org/pypi/django-timezone-field/
+__ http://pypi.python.org/pypi/django-timezone-field-ng/
 __ http://www.pip-installer.org/
 __ https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 __ https://github.com/mfogel/django-timezone-field/issues?q=milestone%3A1.3
 __ https://tox.readthedocs.org/
-__ https://github.com/mfogel/django-timezone-field/
+__ https://github.com/bgroff/django-timezone-field-ng/
 __ https://github.com/brosner/django-timezones/
-__ https://github.com/mfogel/django-timezone-field/graphs/contributors
+__ https://github.com/bgroff/django-timezone-field-ng/graphs/contributors
